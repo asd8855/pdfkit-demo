@@ -11,7 +11,7 @@ export default {
   contents: [
     {
       content_id: '1',
-      content: '西安蝉鸣幼儿园',
+      content: 'pdfkitdemo',
       content_type: 1,
       position: {
         position: 'absolute',

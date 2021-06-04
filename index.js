@@ -38,13 +38,13 @@ async function createPdf() {
     },
     info: {
       Title: '成长册',
-      Author: '李波',
+      Author: 'asd',
       Subject: '成长册-记录宝宝幼儿园快乐时光',
-      Keywords: '班级云相册、成长册、宝宝、相册'
+      Keywords: 'pdfkitdemo'
     }
   });
 
-  doc.pipe(fs.createWriteStream('output.pdf'))
+  doc.pipe(fs.createWriteStream('pdfkit-demo.pdf'))
 
   console.log('start', new Date())
   for (const item of templateList) {
